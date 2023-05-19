@@ -34,7 +34,7 @@ This project aims to create a decentralized news platform, Happy News DAO, where
   - Integration with HappyNewsDAO: Ensures seamless integration of new articles into the HappyNewsDAO platform.
   - Monitoring and synchronization: Monitors the Twitter account for new articles and synchronizes them with the platform.
 
-### Module E: Core Logic and Sentiment Analysis
+### Module E: Core Logic and Sentiment Analysis (This module is in a private repository and is not visible)
 - Description: Handles the core logic of the entire project, including sentiment analysis and secrecy of sensitive information.
 - Interfaces/APIs:
   - Sentiment analysis integration: Integrates with Module B to perform sentiment analysis on articles.
