@@ -1,0 +1,59 @@
+## HappyNewsDAO Project Checklist
+
+### Module A: Signing up new journalists
+- [ ] Create a folder structure for the application process
+- [ ] Develop a smart contract to handle journalist registration
+- [ ] Integrate the [Deform](https://deformapp.cc) application form with the smart contract
+- [ ] Store journalist information securely (consider encryption)
+- [ ] Implement a process for improving the application process based on user feedback
+- [ ] Set up [Google Sheets](https://www.google.com/sheets) to store form submission information
+
+### Module B: Article verification and sentiment analysis
+- [ ] Research and select an appropriate AI tool for article verification
+- [ ] Integrate the selected AI tool into the dApp for article scanning and authenticity verification
+- [ ] Implement sentiment analysis using [Sentiment Analysis Tools](tool-link-here) to rate the sentiment of submitted articles
+- [ ] Explore decentralized storage options (such as [Filecoin](https://filecoin.io)) for storing verified articles securely
+
+### Module C: Payments and journalist compensation
+- [ ] Design a payment system for receiving payments from Twitter
+- [ ] Develop a mechanism to calculate payments based on article clicks
+- [ ] Create a smart contract for managing payments and compensating journalists
+- [ ] Implement secure and decentralized payment transfer methods using [Fantom](https://fantom.foundation)
+- [ ] Utilize [Covalent](https://www.covalenthq.com) to query historical pay for journalists
+- [ ] Set up a database (e.g., [Google Sheets](https://www.google.com/sheets)) to store payment data securely
+
+### Module D: Twitter account management
+- [ ] Set up a dedicated Twitter account for HappyNewsDAO
+- [ ] Implement functionality to handle new articles submitted to HappyNewsDAO
+- [ ] Develop a process to automatically publish articles to the Twitter account
+- [ ] Integrate with the article verification module to ensure only authentic articles are published
+
+### Module E: dApp core logic and self-improvement features
+- [ ] Design and implement the core logic of the dApp
+- [ ] Develop an AI API integration for self-improvement features
+- [ ] Implement sentiment analysis and other operational processes
+- [ ] Store and update self-improvement features using appropriate decentralized storage solutions
+
+### Smart contract development
+- [ ] Identify the required functionalities for each module and define smart contract interfaces
+- [ ] Write smart contracts in a suitable programming language (e.g., Solidity)
+- [ ] Test and debug smart contracts to ensure accuracy and security
+- [ ] Deploy smart contracts to an appropriate blockchain network (e.g., Ethereum)
+
+### GitHub repository setup
+- [ ] Create a new repository on GitHub for the HappyNewsDAO project
+- [ ] Initialize the repository with a suitable project structure
+- [ ] Commit and push the initial codebase, including smart contracts and dApp implementation
+- [ ] Continuously update and maintain the repository with new features and bug fixes
+
+### Continuous autonomous operation
+- [ ] Implement monitoring and error handling mechanisms for the dApp
+- [ ] Set up automated testing processes to ensure ongoing functionality
+- [ ] Consider implementing decentralized governance mechanisms for DAO decision-making
+- [ ] Regularly review and update the project to adapt to evolving technologies and requirements
+
+## Tools and Resources
+
+- [Unstoppable Domains](https://unstoppabledomains.com) - Register the website domain "HappyNews.DAO"
+- [Deform](https://deformapp.cc) - Application form for journalist applications and new article submissions
+- [Google Sheets](https://www.google
