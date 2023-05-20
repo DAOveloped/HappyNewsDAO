@@ -67,7 +67,10 @@
 
 - [Unstoppable Domains](https://unstoppabledomains.com) - Register the website domain "HappyNews.DAO"
 - [Deform](https://deformapp.cc) - Application form for journalist applications and new article submissions
-- [Google Sheets](https://www.google
+- [Google Sheets](https://www.google.com/sheets/about/) - Online spreadsheet tool for storing journalist submissions
+- [Node.js](https://nodejs.org) - JavaScript runtime for executing server-side code
+- [Pinata](https://www.pinata.cloud) - IPFS hosting and storage service for decentralized file management
+- [Unstoppable SDKs](https://unstoppabledomains.com/sdk) - Software development kits for integrating with Unstoppable Domains
 
 
 
