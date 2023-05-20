@@ -7,7 +7,6 @@
 - [x] Set up the necessary credentials and authentication for accessing the Google Sheets API
 - [x] Develop a script or tool to receive a trigger when a new application is submitted
 - [ ] Create a function to retrieve the latest application from the Google Sheet named "Applications" and the tab named "Applications"
-- [ ] Integrate with Weaviate for historical analysis of journalist applications
 - [ ] Integrate with Module E (Node.js API) to send the new application for sentiment analysis
 - [ ] Implement a mechanism to receive the sentiment analysis results from Module E (Node.js API)
 - [ ] Store the sentiment analysis results next to the original application in Google Sheets
