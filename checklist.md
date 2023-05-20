@@ -7,6 +7,7 @@
 - [x] Set up the necessary credentials and authentication for accessing the Google Sheets API
 - [x] Develop a script or tool to receive a trigger when a new application is submitted
 - [ ] Create a function to retrieve the latest application from the Google Sheet named "Applications" and the tab named "Applications"
+- [ ] Integrate with Weaviate for historical analysis of journalist applications
 - [ ] Integrate with Module E (Node.js API) to send the new application for sentiment analysis
 - [ ] Implement a mechanism to receive the sentiment analysis results from Module E (Node.js API)
 - [ ] Store the sentiment analysis results next to the original application in Google Sheets
@@ -42,7 +43,7 @@
 ### Module E: dApp core logic and self-improvement features
 - [ ] Design and implement the core logic of the dApp
 - [ ] Develop an AI API integration for self-improvement features
-- [ ] Implement sentiment analysis and other operational processes
+- [ ] Implement sentiment analysis using Langchain for article sentiment analysis
 - [ ] Store and update self-improvement features using appropriate decentralized storage solutions
 
 ### Smart contract development
@@ -71,6 +72,7 @@
 - [Node.js](https://nodejs.org) - JavaScript runtime for executing server-side code
 - [Pinata](https://www.pinata.cloud) - IPFS hosting and storage service for decentralized file management
 - [Unstoppable SDKs](https://unstoppabledomains.com/sdk) - Software development kits for integrating with Unstoppable Domains
-
+- [Weaviate] - Knowledge graph and vector database for historical analysis of journalist applications
+- [Langchain] - AI-powered language analysis tool for sentiment analysis
 
 
