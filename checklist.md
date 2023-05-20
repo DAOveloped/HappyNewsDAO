@@ -71,7 +71,6 @@
 - [Node.js](https://nodejs.org) - JavaScript runtime for executing server-side code
 - [Pinata](https://www.pinata.cloud) - IPFS hosting and storage service for decentralized file management
 - [Unstoppable SDKs](https://unstoppabledomains.com/sdk) - Software development kits for integrating with Unstoppable Domains
-- [Weaviate] - Knowledge graph and vector database for historical analysis of journalist applications
 - [Langchain] - AI-powered language analysis tool for sentiment analysis
 
 
