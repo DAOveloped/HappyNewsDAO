@@ -3,7 +3,8 @@
 ### Module A: Signing up new journalists
 - [x] Create a folder structure for the application process
 - [x] Embed the journalist application form in the Happy News DAO Twitter account
-- [x] Implement functionality to automatically store journalist submissions to Google Sheets (using Deform or similar tool)
+- [x] Embed the Fresh Article Submission form in the Happy News DAo Twitter account
+- [x] Implement functionality to automatically store journalist submissions to Google Sheets
 - [x] Set up the necessary credentials and authentication for accessing the Google Sheets API
 - [x] Develop a script or tool to receive a trigger when a new application is submitted
 - [ ] Create a function to retrieve the latest application from the Google Sheet named "Applications" and the tab named "Applications"
@@ -66,7 +67,6 @@
 ## Tools and Resources
 
 - [Unstoppable Domains](https://unstoppabledomains.com) - Register the website domain "HappyNews.DAO"
-- [Deform](https://deformapp.cc) - Application form for journalist applications and new article submissions
 - [Google Sheets](https://www.google.com/sheets/about/) - Online spreadsheet tool for storing journalist submissions
 - [Node.js](https://nodejs.org) - JavaScript runtime for executing server-side code
 - [Pinata](https://www.pinata.cloud) - IPFS hosting and storage service for decentralized file management
