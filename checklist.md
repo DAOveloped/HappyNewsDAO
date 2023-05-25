@@ -39,7 +39,7 @@
 - [ ] Develop a process to automatically publish articles to the Twitter account
 - [ ] Integrate with the article verification module to ensure only authentic articles are published
 
-### Module E: dApp core logic and self-improvement features
+### Module E: dApp core logic and self-improvement features (the steps here are intentionally not exhaustive and complete)
 - [ ] Design and implement the core logic of the dApp
 - [ ] Develop an AI API integration for self-improvement features
 - [ ] Implement sentiment analysis using Langchain for article sentiment analysis
@@ -49,7 +49,7 @@
 - [ ] Identify the required functionalities for each module and define smart contract interfaces
 - [ ] Write smart contracts in a suitable programming language (e.g., Vyper)
 - [ ] Test and debug smart contracts to ensure accuracy and security
-- [ ] Deploy smart contracts to an Fantom network 
+- [ ] Deploy smart contracts to Fantom network 
 
 ### GitHub repository setup
 - [x] Create a new repository on GitHub for the HappyNewsDAO project
