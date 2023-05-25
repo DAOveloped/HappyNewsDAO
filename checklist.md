@@ -2,7 +2,6 @@
 
 ### Module A: Signing up new journalists
 - [x] Create a folder structure for the application process
-- [x] Embed the journalist application form in the Happy News DAO Twitter account
 - [x] Embed the Fresh Article Submission form in the Happy News DAo Twitter account
 - [x] Implement functionality to automatically store journalist submissions to Google Sheets
 - [x] Set up the necessary credentials and authentication for accessing the Google Sheets API
