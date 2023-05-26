@@ -65,7 +65,7 @@
 
 ## Tools and Resources
 
-- [Unstoppable Domains](https://unstoppabledomains.com) - Register the website domain "HappyNews.DAO"
+- [Unstoppable Domains](https://unstoppabledomains.com) - Decentralized website domain for "HappyNews.DAO"
 - [Google Sheets](https://www.google.com/sheets/about/) - Online spreadsheet tool for storing journalist submissions
 - [Node.js](https://nodejs.org) - JavaScript runtime for executing server-side code
 - [Pinata](https://www.pinata.cloud) - IPFS hosting and storage service for decentralized file management
