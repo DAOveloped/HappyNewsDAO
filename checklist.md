@@ -70,6 +70,7 @@
 - [Node.js](https://nodejs.org) - JavaScript runtime for executing server-side code
 - [Pinata](https://www.pinata.cloud) - IPFS hosting and storage service for decentralized file management
 - [Unstoppable SDKs](https://unstoppabledomains.com/sdk) - Software development kits for integrating with Unstoppable Domains
-- [Langchain] - AI-powered language analysis tool for sentiment analysis
+- [Langchain](https://python.langchain.com/en/latest/index.html) - AI-powered language analysis tool for sentiment analysis
+- [Flask](https://flask.palletsprojects.com/en/2.3.x/) - Framework providing tools and libraries to create web applications
 
 
