@@ -12,8 +12,8 @@ This project aims to create a decentralized news platform, Happy News DAO, where
   - User storage: Stores journalist information securely.
 
 ### Module B: Article Scanning and Verification
-- Description: Scans and verifies the authenticity of new articles submitted by journalists, along with sentiment analysis.
-- Interfaces/APIs:
+- Description: This module holds the processes and steps to scans and verify the authenticity of new articles submitted by journalists, along with sentiment analysis.
+  - Interfaces/APIs:
   - Article submission: Receives new articles from journalists.
   - Article scanning: Performs checks to ensure the articles are not AI-generated and verifies human authenticity.
   - Sentiment analysis: Analyzes the sentiment of the articles.
