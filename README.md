@@ -4,7 +4,7 @@ This project aims to create a decentralized news platform, Happy News DAO, where
 
 ## Modules Overview
 
-## Module A: Signing up new journalists and Article Submission
+### Module A: Signing up new journalists and Article Submission
 - Description: Handles the process of onboarding new journalists and facilitates article submission through a Google Form on the Twitter profile page. It also stores journalist information in Weaviate or a dedicated Google Sheet tab and updates their information for each fresh article submission.
 - Interfaces/APIs:
   - User registration: Allows journalists to sign up through the Google Form by providing necessary information and credentials.
