@@ -1,6 +1,21 @@
 # Happy News DAO Project
 
-This project aims to create a decentralized news platform, Happy News DAO, where journalists can submit and publish news articles while ensuring authenticity, sentiment analysis, and proper payment processing. The project is divided into multiple modules, each responsible for specific functionalities. Happy News is meant to be autonomous and operate without any human input once a "Fresh Article" is submitted on the twitter profile page. After that, each module below is meant to be autonomous and not require any human input, aside from Module E, which will be monitored for the "self-adjusting" sentiment features and analysis that process the "Fresh Articles" as they are submitted.
+Welcome to the Happy News repository! This repository contains the source code for Happy News DAO, a platform dedicated to sharing positive news articles and uplifting stories from anyone around the world.
+
+This project aims to create a decentralized news platform where journalists can submit and publish news articles while ensuring authenticity, sentiment analysis, and proper payment processing. The project is divided into multiple modules, each responsible for specific functionalities. Happy News is meant to be autonomous and operate without any human input once a "Fresh Article" is submitted on the twitter profile page. After that, each module below is meant to be autonomous and not require any human input, aside from Module E, which will be monitored for the "self-adjusting" sentiment features and analysis that process the "Fresh Articles" as they are submitted.
+
+## Website
+
+To access the live version of the HappyNews.DAO website, visit [HappyNews.DAO](happynews.dao). Please note that to view the website, you'll need a compatible web browser.
+
+- For Google Chrome users, it is recommended to install the [Unstoppable Domains Extension](https://unstoppabledomains.com/extension) to seamlessly access decentralized domain hosting.
+
+- Brave browser users can directly visit [HappyNews.DAO](happynews.dao) without the need for any additional extensions. If you don't have the Brave browser, you can download it from the official website: [Download Brave Browser](https://brave.com/)
+
+## Prerequisites
+
+- Web browser (Google Chrome or Brave)
+- [Unstoppable Domains Extension](https://unstoppabledomains.com/extension) (for Google Chrome users)
 
 ## Modules Overview
 
