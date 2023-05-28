@@ -74,7 +74,7 @@ This project aims to create a decentralized news platform, Happy News DAO, where
 - Github: (Version control and project management): GitHub is used as the version control system and project management tool for the Happy News DAO project. It allows for collaborative development, code sharing, and issue tracking.
 
 ## Processes and Autonomy
-To ensure autonomous operation of the project, several key processes can be implemented:
+To ensure autonomous operation of the project, several key processes will be implemented:
 - Journalist Onboarding: Module A can utilize automated user registration and application processes, minimizing the need for manual intervention in the onboarding of new journalists.
 - Article Scanning and Verification: Module B should implement robust and automated processes to scan and verify the authenticity of articles. By incorporating AI algorithms and techniques, the system can detect AI-generated content and ensure human authenticity.
 - Sentiment Analysis: Module E, with the integration of Langchain, can perform sentiment analysis autonomously. The sentiment analysis process should continuously improve through self-adjusting features, allowing the project to adapt and enhance accuracy over time.
@@ -83,7 +83,7 @@ To ensure autonomous operation of the project, several key processes can be impl
 - Website Updates: Module G can detect when an article has been permanently stored on Filecoin and autonomously update the HappyNews.DAO website.
 
 ## Challenges Faced
-During the development of the Happy News DAO project, we encountered several challenges, including:
+During the development of the Happy News DAO project, we are encountering several challenges, including:
 - Designing a fully decentralized and autonomous platform without requiring human input, except for Module E.
 - Implementing robust article verification processes to ensure authenticity and prevent AI-generated content.
 - Coordinating the integration and synchronization of multiple modules to operate seamlessly and maintain decentralization.
@@ -91,18 +91,19 @@ During the development of the Happy News DAO project, we encountered several cha
 - Learning the new web3 tools and determining their efficiency and requirements within the Happy News project.
 
 ## Strategies Employed
-To address the challenges faced, we employed the following strategies:
-- Conducted extensive research and experimentation to identify the most suitable technologies and frameworks for each module.
-- Collaborated closely with the team members to design and implement well-defined interfaces/APIs for seamless integration between modules.
-- Implemented rigorous testing and code reviews to identify and resolve any issues or vulnerabilities.
-- Incorporated secure storage mechanisms, such as IPFS and encryption, to protect sensitive information.
-- Leveraged decentralized technologies, such as blockchain and IPFS, to ensure data integrity and reliability.
+To address the challenges faced, we are employing the following strategies:
+- Conduct extensive research and experimentation to identify the most suitable technologies and frameworks for each module.
+- Collaborate closely with the team members to design and implement well-defined interfaces/APIs for seamless integration between modules.
+- Implement rigorous testing and code reviews to identify and resolve any issues or vulnerabilities.
+- Incorporate secure storage mechanisms, such as IPFS and encryption, to protect sensitive information.
+- Leverage decentralized technologies, such as blockchain and IPFS, to ensure data integrity and reliability.
 
 ## Future Enhancements
 Some future improvements and features that could be considered include:
-- Implementing a decentralized governance mechanism for decision-making within the DAO.
-- Enhancing the article scanning and verification processes with advanced AI algorithms and natural language processing techniques.
-- Expanding the payment system to support additional cryptocurrencies and payment gateways.
-- Integrating with additional social media platforms to broaden the reach and impact of the news platform.
-- Enabling user feedback and rating systems to improve the quality and credibility of published articles.
+- Implement a decentralized governance mechanism for decision-making within the DAO.
+- Enhance the article scanning and verification processes with advanced AI algorithms and natural language processing techniques.
+- Expand the payment system to support additional cryptocurrencies and payment gateways.
+- Integrate with additional social media platforms to broaden the reach and impact of the news platform.
+- Enable user feedback and rating systems to improve the quality and credibility of published articles.
+
 
