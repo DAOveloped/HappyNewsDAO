@@ -6,7 +6,7 @@
 - [x] Implement functionality to automatically store journalist submissions to Google Sheets
 - [x] Set up the necessary credentials and authentication for accessing the Google Sheets API
 - [x] Develop a script or tool to receive a trigger when a new application is submitted
-- [ ] Create a function to retrieve the latest application from the Google Sheet named "Applications" and the tab named "Applications"
+- [ ] Create a function to retrieve the latest application from the Google Sheets 
 - [ ] Integrate with Module E (Node.js API) to send the new application for sentiment analysis
 - [ ] Implement a mechanism to receive the sentiment analysis results from Module E (Node.js API)
 - [ ] Store the sentiment analysis results next to the original application in Google Sheets
@@ -22,7 +22,7 @@
 ### Module B: Article verification and sentiment analysis
 - [ ] Research and select an appropriate AI tool for article verification
 - [ ] Integrate the selected AI tool into the dApp for article scanning and authenticity verification
-- [ ] Implement sentiment analysis using [Sentiment Analysis Tools](tool-link-here) to rate the sentiment of submitted articles
+- [ ] Implement analysis to rate the sentiment of submitted articles
 - [ ] Explore decentralized storage options (such as [Filecoin](https://filecoin.io)) for storing verified articles securely
 
 ### Module C: Payments and journalist compensation
