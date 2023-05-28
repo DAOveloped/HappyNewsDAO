@@ -1,6 +1,6 @@
 # Happy News DAO Project
 
-This project aims to create a decentralized news platform, Happy News DAO, where journalists can submit and publish news articles while ensuring authenticity, sentiment analysis, and proper payment processing. The project is divided into multiple modules, each responsible for specific functionalities. This ReadMe file provides an overview of the modules and their interfaces/APIs for smooth integration.
+This project aims to create a decentralized news platform, Happy News DAO, where journalists can submit and publish news articles while ensuring authenticity, sentiment analysis, and proper payment processing. The project is divided into multiple modules, each responsible for specific functionalities. Happy News is meant to be autonomous and operate without any human input once a "Fresh Article" is submitted on the twitter profile page. After that, each module below is meant to be autonomous and not require any human input, aside from Module E, which will be monitored for the "self-adjusting" sentiment features and analysis that process the "Fresh Articles" as they are submitted. 
 
 ## Modules Overview
 
@@ -11,7 +11,7 @@ This project aims to create a decentralized news platform, Happy News DAO, where
   - Application process: Provides a folder-based system to guide journalists through the application process.
   - User storage: Stores journalist information securely.
 
-### Module B: Article Scanning and Verification
+### Module B: Article Scanning and Verification Processes 
 - Description: This module holds the processes and steps to scans and verify the authenticity of new articles submitted by journalists, along with sentiment analysis.
   - Interfaces/APIs:
   - Article submission: Receives new articles from journalists.
