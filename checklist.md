@@ -55,7 +55,6 @@
 - [ ] Store and update self-improvement features using appropriate decentralized storage solutions
 
 ### Module F: Storing Articles on Filecoin
-
 - [ ] Set up a Filecoin storage node or connect to an existing Filecoin network
 - [ ] Define the data structure for storing articles on Filecoin (e.g., JSON format)
 - [ ] Implement functionality to package and encrypt articles for storage on Filecoin
@@ -69,7 +68,6 @@
 - [ ] Document the entire process, including setup instructions and any necessary configurations
 
 ### Module G: Updating HappyNews.DAO Website with Permanent Storage
-
 - [ ] Set up a web server or hosting environment for the HappyNews.DAO website
 - [ ] Define the file structure and directory for storing articles on the website
 - [ ] Develop a trigger mechanism to detect when an article has been permanently stored on Module F
@@ -110,6 +108,13 @@
 - [Pinata](https://www.pinata.cloud) - IPFS hosting and storage service for decentralized file management
 - [Unstoppable SDKs](https://unstoppabledomains.com/sdk) - Software development kits for integrating with Unstoppable Domains
 - [Langchain](https://python.langchain.com/en/latest/index.html) - AI-powered language analysis tool for sentiment analysis
+- [Weaviate](https://www.semi.technology/developers/weaviate/current/introduction/index.html) - Knowledge Graph system for semantic search and data exploration
+- [Power BI](https://powerbi.microsoft.com) - Business analytics tool for data visualization and reporting
+- [Fantom](https://fantom.foundation) - A scalable, high-performance blockchain platform
+- [Covalent](https://www.covalenthq.com) - Blockchain data provider for querying historical pay for journalists
+- [Filecoin](https://filecoin.io) - Decentralized storage network for storing articles and files
+- [Vyper](https://github.com/vyperlang/vyper) - Pythonic smart contract language for Ethereum
+- [GitHub](https://github.com) - Web-based hosting service for version control and collaboration
 - [Flask](https://flask.palletsprojects.com/en/2.3.x/) - Framework providing tools and libraries to create web applications
 
 
