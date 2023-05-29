@@ -116,5 +116,7 @@
 - [Vyper](https://github.com/vyperlang/vyper) - Pythonic smart contract language for Ethereum
 - [GitHub](https://github.com) - Web-based hosting service for version control and collaboration
 - [Flask](https://flask.palletsprojects.com/en/2.3.x/) - Framework providing tools and libraries to create web applications
+- [Postman]
+- [Vercel]
 
 
