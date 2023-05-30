@@ -141,9 +141,9 @@
 - [GitHub](https://github.com) - Web-based hosting service for version control and collaboration
 - [Flask](https://flask.palletsprojects.com/en/2.3.x/) - Web framework for building API endpoints in Python
 - [Twitter API](https://developer.twitter.com/en/docs) - API for integrating with Twitter functionality
-- [Postman] - Collaboration platform for API development, testing, and documentation
-- [Vercel] - Cloud platform for static site hosting and serverless functions
-- [Supabase] - Open-source Firebase alternative with a PostgreSQL database
+- [Postman](https://twitter.com/getpostman) - Collaboration platform for API development, testing, and documentation
+- [Vercel](https://twitter.com/vercel) - Cloud platform for static site hosting and serverless functions
+- [Supabase](https://twitter.com/supabase) - Open-source Firebase alternative with a PostgreSQL database
 
 
 
