@@ -27,7 +27,7 @@
    - [] Define the required data format and communication protocol between the two modules.
 - [ ] Store the sentiment analysis results next to the original application in Google Sheets:
    - [] Enhance the existing Google Sheets script to store the sentiment analysis results alongside the corresponding journalist application data.
-- [ ] Send the application results (including sentiment analysis) to the applicant's Twitter account:
+- [ ] Send the application results (including sentiment analysis) to the applicant's Twitter account.
    - [] Use the Twitter API credentials obtained earlier to send the application results (e.g., sentiment analysis score) as a tweet to the applicant's Twitter account.
 - [ ] Ensure proper data privacy and security measures are in place when handling journalist information:
    - [] Implement appropriate data encryption and access control mechanisms for storing and handling journalist submissions.
