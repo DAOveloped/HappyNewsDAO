@@ -5,8 +5,8 @@
 - [x] Embed the Fresh Article Submission form in the Happy News DAo Twitter account
 - [x] Implement functionality to automatically store journalist submissions to Google Sheets
 - [x] Set up the necessary credentials and authentication for accessing the Google Sheets API
-- [x] Develop a script or tool to receive a trigger when a new application is submitted
-- [ ] Create a function to retrieve the latest application from the Google Sheets 
+- [x] Write a script to receive a trigger when a new application is submitted
+- [ ] Create a function to retrieve the latest application from Google sheets 
 - [ ] Integrate with Module E (Node.js API) to send the new application for sentiment analysis
 - [ ] Implement a mechanism to receive the sentiment analysis results from Module E (Node.js API)
 - [ ] Store the sentiment analysis results next to the original application in Google Sheets
