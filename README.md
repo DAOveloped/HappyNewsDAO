@@ -8,7 +8,7 @@ This project aims to create a decentralized news platform where journalists can 
 
 The website address is "HappyNews.DAO" but please note that to view the website, you'll need a compatible web browser.
 
-- Brave browser users can directly visit https://ipfs.io/ipfs/QmaynV88EPXVb69sxnQbW7ow1eTo9HVHuNeMFJrqP3Fkt6[HappyNews.DAO](https://bafybeif3z6diywbn4jje3v54uv5ivp6ew6h2w764duxkdovec4ixs73yf4.ipfs.dweb.link/) without the need for any additional extensions. If you don't have the Brave browser, you can download it from the official website: [Download Brave Browser](https://brave.com/)
+- Brave browser users can directly visit https://ipfs.io/ipfs/QmaynV88EPXVb69sxnQbW7ow1eTo9HVHuNeMFJrqP3Fkt6 [HappyNews.DAO](https://bafybeif3z6diywbn4jje3v54uv5ivp6ew6h2w764duxkdovec4ixs73yf4.ipfs.dweb.link/) without the need for any additional extensions. If you don't have the Brave browser, you can download it from the official website: [Download Brave Browser](https://brave.com/)
 
 - For Google Chrome users, it is recommended to install the [Unstoppable Domains Extension](https://unstoppabledomains.com/extension) to seamlessly access decentralized domain hosting.
 
