@@ -44,6 +44,8 @@ The website address is "HappyNews.DAO" but please note that to view the website,
   - Article submission from Twitter: Receives new articles posted on the Twitter account.
   - Integration with HappyNewsDAO: Ensures seamless integration of new articles into the HappyNewsDAO platform.
   - Monitoring and synchronization: Monitors the Twitter account for new articles and synchronizes them with the platform.
+  - Database integration: Utilizes Supabase as the database to store and track tweeted articles.
+  - Duplicate tweet prevention: Implements a mechanism to prevent duplicate tweets of the same article.
 
 ### Module E: dApp core logic and self-improvement features (the steps here are intentionally not exhaustive and complete)
 - Description: Handles the core logic of the entire project, including sentiment analysis, self-improvement features, and storage of historical sentiment analysis scores using Weaviate.
