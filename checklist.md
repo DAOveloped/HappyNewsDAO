@@ -2,11 +2,11 @@
 
 ### Module A: Signing up new journalists
 - [x] Create a folder structure for the application process
-- [x] Embed the Fresh Article Submission form in the Happy News DAo Twitter account
+- [x] Embed the Fresh Article Submission form in the Happy News DAO Twitter account
 - [x] Implement functionality to automatically store journalist submissions to Google Sheets
 - [x] Set up the necessary credentials and authentication for accessing the Google Sheets API
 - [x] Write a script to receive a trigger when a new application is submitted
-- [ ] Create a function to retrieve the latest application from Google sheets 
+- [ ] Create a function to retrieve the latest application from Google Sheets 
 - [ ] Integrate with Module E (Node.js API) to send the new application for sentiment analysis
 - [ ] Implement a mechanism to receive the sentiment analysis results from Module E (Node.js API)
 - [ ] Store the sentiment analysis results next to the original application in Google Sheets
@@ -32,12 +32,12 @@
 - [ ] Document the entire process, including setup instructions and any necessary configurations.
 
 ### Module C: Payments and journalist compensation
-- [ ] Design a payment system for receiving payments from Twitter
-- [ ] Develop a mechanism to calculate payments based on article clicks
-- [ ] Create a smart contract for managing payments and compensating journalists
-- [ ] Implement secure and decentralized payment transfer methods using [Fantom](https://fantom.foundation)
-- [ ] Utilize [Covalent](https://www.covalenthq.com) to query historical pay for journalists
-- [ ] Set up a database (e.g., [Google Sheets](https://www.google.com/sheets)) to store payment data securely
+- [ ] Design a payment system for receiving payments from Twitter.
+- [ ] Develop a mechanism to calculate payments based on article clicks.
+- [ ] Create a smart contract for managing payments and compensating journalists.
+- [ ] Implement secure and decentralized payment transfer methods using Fantom.
+- [ ] Utilize Covalent to query historical pay for journalists.
+- [ ] Set up a database (e.g., Google Sheets) to store payment data securely.
 
 ### Module D: Twitter account management
 - [x] Set up a dedicated Twitter account for HappyNewsDAO
@@ -51,13 +51,13 @@
   #### Steps for integrating Supabase into Module D:
   1. Set up a Supabase project:
      - [ ] Create a new Supabase project on the Supabase website.
-    - [ ] Configure the project settings and obtain the required credentials (e.g., project URL, API key).
+     - [ ] Configure the project settings and obtain the required credentials (e.g., project URL, API key).
   2. Set up the Supabase client:
      - [ ] Install the Supabase client library in your project's dependencies.
-    - [ ] Initialize the Supabase client using the obtained credentials.
+     - [ ] Initialize the Supabase client using the obtained credentials.
   3. Create a table for tweeted articles:
      - [ ] Design a table schema to store information about tweeted articles, including unique identifiers and timestamps.
-    - [ ] Use the Supabase client or the Supabase management interface to create the table in your Supabase project.
+     - [ ] Use the Supabase client or the Supabase management interface to create the table in your Supabase project.
   4. Automate publishing process:
      - [ ] Implement a process to automatically publish new articles to the Twitter account.
      - [ ] Use the Twitter API to post tweets containing the article content and relevant information.
@@ -70,7 +70,7 @@
   7. Threshold for permanent storage (Module F) and website publishing (Module G):
      - [ ] Define a threshold for the number of impressions an article needs to reach before being sent to Module F for permanent storage.
      - [ ] Implement the logic to check if an article has reached the threshold and trigger the process to store it permanently.
-     - [ ] Similarly, define a threshold for publishing articles on the Happy News website (Module G) and implement the logic to initiate     publication once the threshold is met.
+     - [ ] Similarly, define a threshold for publishing articles on the Happy News website (Module G) and implement the logic to initiate publication once the threshold is met.
 
 ### Module E: dApp core logic and self-improvement features (the steps here are intentionally not exhaustive and complete)
 - [ ] Design and implement the core logic of the dApp
@@ -139,8 +139,12 @@
 - [Filecoin](https://filecoin.io) - Decentralized storage network for storing articles and files
 - [Vyper](https://github.com/vyperlang/vyper) - Pythonic smart contract language for Ethereum
 - [GitHub](https://github.com) - Web-based hosting service for version control and collaboration
-- [Flask](https://flask.palletsprojects.com/en/2.3.x/) - Framework providing tools and libraries to create web applications
-- [Postman]
-- [Vercel]
+- [Flask](https://flask.palletsprojects.com/en/2.3.x/) - Web framework for building API endpoints in Python
+- [Twitter API](https://developer.twitter.com/en/docs) - API for integrating with Twitter functionality
+- [Postman] - Collaboration platform for API development, testing, and documentation
+- [Vercel] - Cloud platform for static site hosting and serverless functions
+- [Supabase] - Open-source Firebase alternative with a PostgreSQL database
+
+
 
 
