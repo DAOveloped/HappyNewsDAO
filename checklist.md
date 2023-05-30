@@ -75,7 +75,7 @@
 ### Module E: dApp core logic and self-improvement features (the steps here are intentionally not exhaustive and complete)
 - [ ] Design and implement the core logic of the dApp
 - [ ] Develop an AI API integration for self-improvement features
-- [ ] Implement sentiment analysis using Langchain for article sentiment analysis
+- [ ] Implement sentiment analysis using a suite of tools and proprietary analysis for article sentiment analysis
 - [ ] Store and update self-improvement features using appropriate decentralized storage solutions
 
 ### Module F: Storing Articles on Filecoin
