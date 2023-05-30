@@ -1,4 +1,4 @@
-## Technical Aspect Roadmap in a Web3 Manner:
+## Technical Aspect Roadmap
 
 **1. Frontend Development:**
 - User Interface (UI) Design: Create visually appealing and user-friendly interface for the Happy News platform.
@@ -11,13 +11,27 @@
 **2. Backend Development:**
 - Serverless Architecture: Design and develop the backend using serverless technologies for easy deployment and scalability.
 - API Development: Create a serverless API for communication between the frontend and backend.
-- User Management: Implement serverless functions for user registration, profile management, and password reset.
-- Data Storage: Utilize cloud-based database services (e.g., Amazon DynamoDB, MongoDB Atlas) for data storage.
-- Authentication and Authorization: Implement serverless functions for authentication and authorization mechanisms.
-- News Article Management: Develop serverless functions for creating, updating, and retrieving news articles.
-- Comment Management: Implement serverless functions for adding, editing, and retrieving comments.
-- Integration with External APIs: Utilize serverless functions to integrate with external APIs for fetching data or services.
-- Error Handling and Logging: Implement error handling and logging mechanisms for better troubleshooting.
+- User Management:
+  - User Registration: Implement serverless functions for user registration and profile creation.
+  - User Authentication: Develop serverless functions for securely authenticating users.
+  - Password Reset: Implement a mechanism for users to reset their passwords securely.
+- Data Storage:
+  - Cloud Database: Utilize a cloud-based database service for storing user profiles, news articles, and comments.
+  - Database Integration: Develop serverless functions to interact with the database and perform CRUD operations.
+- News Article Management:
+  - Article Creation: Implement serverless functions for creating and publishing news articles.
+  - Article Retrieval: Develop functionality to retrieve and display news articles to users.
+  - Article Update and Deletion: Enable authorized users to update and delete news articles.
+- Comment Management:
+  - Comment Creation: Implement serverless functions to allow users to add comments to news articles.
+  - Comment Retrieval: Develop functionality to retrieve and display comments on news articles.
+  - Comment Moderation: Implement moderation features to manage and remove inappropriate comments.
+- Integration with External APIs:
+  - News API Integration: Integrate with external news APIs to fetch latest news articles.
+  - Social Media Sharing: Implement functionality to share news articles on social media platforms.
+- Error Handling and Logging:
+  - Error Handling: Implement error handling mechanisms to gracefully handle exceptions and provide informative feedback to users.
+  - Logging: Set up logging to capture application logs for monitoring and troubleshooting.
 
 **3. Smart Contract Development:**
 - Smart Contract Design: Design the structure and functionality of the smart contracts for the Happy News DAO.
@@ -38,14 +52,12 @@
 - Integration Testing: Perform integration tests to verify the interoperability of different modules.
 - Security Audits: Conduct security audits to identify and mitigate potential vulnerabilities.
 - Performance Testing: Test the performance of the system under various scenarios and optimize as needed.
-- Bug Fixing: Address and resolve any bugs or issues identified during testing.
+- Bug Fixing: Address and resolve any bugs or issues discovered during testing.
 
-**6. Deployment and DevOps:**
-- Dockerization: Containerize the application using Docker for easy deployment and consistency across environments.
-- Cloud Deployment: Deploy the Dockerized application to cloud platforms like Heroku or AWS Elastic Beanstalk.
-- Continuous Integration and Deployment (CI/CD): Set up CI/CD pipelines using tools like GitHub Actions or Jenkins for automated testing and deployment.
-- Infrastructure Management: Manage the cloud infrastructure components, such as serverless functions, databases, and storage services.
-- Monitoring and Logging: Implement monitoring and logging tools to track system performance and detect issues.
-- Scalability and Load Balancing: Configure the cloud deployment for scalability and load balancing to handle increased user traffic.
+**6. Deployment and Operations:**
+- Cloud Deployment: Deploy the entire application to a cloud platform like Docker, Vercel, or Heroku for autonomous operation.
+- Continuous Integration and Deployment (CI/CD): Set up CI/CD pipelines for automated build, testing, and deployment processes.
+- Scalability and Load Balancing: Configure the deployment to handle increased user traffic and load balancing.
 - Security and Backup: Implement security measures and regular backups to protect data and ensure its integrity.
+
 
