@@ -1,22 +1,43 @@
 ## HappyNewsDAO Project Checklist
 
 ### Module A: Signing up new journalists
-- [x] Create a folder structure for the application process
-- [x] Embed the Fresh Article Submission form in the Happy News DAO Twitter account
-- [x] Implement functionality to automatically store journalist submissions to Google Sheets
-- [x] Set up the necessary credentials and authentication for accessing the Google Sheets API
-- [x] Write a script to receive a trigger when a new application is submitted
-- [ ] Create a function to retrieve the latest application from Google Sheets 
-- [ ] Integrate with Module E (Node.js API) to send the new application for sentiment analysis
-- [ ] Implement a mechanism to receive the sentiment analysis results from Module E (Node.js API)
-- [ ] Store the sentiment analysis results next to the original application in Google Sheets
-- [ ] Send the application results (including sentiment analysis) to the applicant's Twitter account
-- [ ] Ensure proper data privacy and security measures are in place when handling journalist information
-- [ ] Handle errors and edge cases in the application submission and retrieval process
-- [ ] Implement logging and monitoring to track the application submission and processing flow
-- [ ] Test the end-to-end flow of application submission, sentiment analysis, and result handling
-- [ ] Document the entire process, including setup instructions and any necessary configurations
-- [ ] Review and optimize the performance and efficiency of the application submission and processing flow
+
+ - [x] Create a folder structure for the application process:
+    -[x] Set up a directory on your local machine or server to store all the necessary files and scripts related to the journalist application process.
+- [x] Embed the Fresh Article Submission form in the Happy News DAO Twitter account:
+   - [x] Access the Twitter Developer Portal (https://developer.twitter.com/en/portal/dashboard) and create a new app to obtain the necessary API credentials.
+   - [x] Embed the Fresh Article Submission form on the Happy News twitter page, ensuring it collects all the required information from journalists.
+- [x] Implement functionality to automatically store journalist submissions to Google Sheets:
+   - [x] Set up a Google Sheets document to store journalist submissions.
+   - [x] Generate API credentials for accessing the Google Sheets API through the Google Cloud Console (https://console.cloud.google.com/).
+   - [x] Write a script (e.g., using Python and the Google Sheets API) to automatically save journalist submissions to the designated Google Sheets document.
+- [x] Set up the necessary credentials and authentication for accessing the Google Sheets API:
+   - [x] Create a service account on the Google Cloud Console and download the JSON key file associated with the service account.
+   - [x] Configure the key file and credentials to enable programmatic access to the Google Sheets API.
+- [x] Write a script (application_trigger.js) to receive a trigger when a new application is submitted:
+   - [] Implement a backend script (e.g., using Node.js) that listens for incoming requests from the Fresh Article Submission form.
+   - [] Configure the script to handle form submissions and trigger the subsequent actions.
+- [ ] Create a function to retrieve the latest application from Google Sheets:
+   - [] Write a script (e.g., using Python and the Google Sheets API) to retrieve the latest journalist application from the designated Google Sheets document.
+- [ ] Integrate with Module E (Node.js API) to send the new application for sentiment analysis:
+   - [] Set up communication channels between Module A and Module E, such as HTTP endpoints or message queues(Postman).
+   - [] Prepare the journalist application data format and send it to the designated endpoint in Module E for sentiment analysis.
+- [ ] Implement a mechanism to receive the sentiment analysis results from Module E (Node.js API):
+   - [] Configure Module A to listen for incoming sentiment analysis results from Module E.
+   - [] Define the required data format and communication protocol between the two modules.
+- [ ] Store the sentiment analysis results next to the original application in Google Sheets:
+   - [] Enhance the existing Google Sheets script to store the sentiment analysis results alongside the corresponding journalist application data.
+- [ ] Send the application results (including sentiment analysis) to the applicant's Twitter account:
+   - [] Use the Twitter API credentials obtained earlier to send the application results (e.g., sentiment analysis score) as a tweet to the applicant's Twitter account.
+- [ ] Ensure proper data privacy and security measures are in place when handling journalist information:
+   - [] Implement appropriate data encryption and access control mechanisms for storing and handling journalist submissions.
+   - [] Follow data privacy regulations and best practices to protect journalists' personal information.
+- [ ] Handle errors and edge cases in the application submission and retrieval process:
+   - [] Implement error handling mechanisms to handle exceptions and failures during the application submission and retrieval process.
+- [ ] Implement logging and monitoring to track the application submission and processing flow:
+   - [] Integrate a logging library (e.g., Winston or Log4js) into the application to log relevant events and errors.
+   - [] Set up a monitoring system (e.g., using Prometheus and Grafana) to track the overall application submission and processing flow.
+
 
 ### Module B: Article Verification and Interaction with Module E
 - [ ] Research and select an appropriate AI tool or service for article verification.
