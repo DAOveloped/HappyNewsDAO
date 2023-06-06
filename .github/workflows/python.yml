@@ -1,0 +1,34 @@
+name: Receive Fresh Articles
+on:
+  push:
+    branches:
+      - main
+jobs:
+  receive-articles:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+      - run: pip install google-api-python-client
+      - run: echo "Getting data from Twitter"
+      - run: |
+          import twitter
+          import json
+          consumer_key = ""
+          consumer_secret = ""
+          access_token = ""
+          access_token_secret = ""
+          auth = twitter.OAuthHandler(consumer_key, consumer_secret)
+          auth.set_access_token(access_token, access_token_secret)
+          client = twitter.Api(auth)
+          for tweet in client.search(q="#HappyNews"):
+              if tweet.text.startswith("@HappyNews"):
+                  article_submission = {
+                      "title": tweet.text.split(" ")[1],
+                      "author": tweet.user.screen_name,
+                      "url": tweet.entities["urls"][0]["expanded_url"]
+                  }
+                  print(article_submission)
+
